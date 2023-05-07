@@ -82,7 +82,7 @@ loader(messageDiv);
 
 // fetch the data from server -> bot's response
 
-const response = await fetch('http://localhost:5000',{
+const response = await fetch('https://codex-e06r.onrender.com',{
   method: 'POST',
   headers: {
     'Content-Type':'application/json'
